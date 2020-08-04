@@ -1,0 +1,71 @@
+form,ul,dl,dd,dt,p,html,body {padding:0;margin:0;}
+
+h1,h2,h3,h4,h5 {padding:0;margin:0;text-align:center;}
+
+img {border:0; vertical-align:top}
+
+
+
+a:focus, a:active {outline:none}
+
+
+
+.cfix:after, .clear-li li:after {content:".";display:block;font-size:1px;height:0;clear:both;visibility:hidden}
+
+.cfix, .clear-li li {display:inline-block}
+
+/* Hide from IE Mac \*/
+
+.cfix, .clear-li li {display:block}
+
+/* End hide from IE Mac */
+
+
+
+ul {list-style-type:none}
+
+
+
+.width100 {width:100%}
+
+.width75 {width:75%}
+
+.width50 {width:50%}
+
+.floatLeft {float:left}
+
+.floatRight {float:right}
+
+.alignLeft {text-align:left}
+
+.alignRight {text-align:right}
+
+.alignCenter {text-align:center}
+
+.mar-r {margin-right:-15%}
+
+
+
+.more {text-decoration:none}
+
+	.more span {text-decoration:underline}
+
+
+
+.clr {clear:both; float:none !important; height:1px !important; font-size:1px !important; border:none; margin:0 !important; padding:0 !important; background:transparent !important; visibility:hidden !important}
+
+
+
+div.txt-tb:after {position:relative; display:block; line-height:0; height:1px; margin-bottom:-1px; width:100%; overflow:hidden; visibility:hidden; content:" - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - -  - - - - - - - - - ";}
+
+div.txt-tb {position:relative; z-index:999; display:table-cell}
+
+
+
+.inp-t {padding:2px 1px 2px 3px; border:1px solid #b2b2b2}
+
+
+
+.chk-b {position:relative; display:block; padding-left:20px}
+
+.chk-b input {position:absolute; left:-1px; top:-2px; margin-left:0}
